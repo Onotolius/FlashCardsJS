@@ -3,6 +3,9 @@
 Small flashcard quiz built with vanilla JavaScript for practicing basic JavaScript questions.
 
 ## Live Preview
+
+https://onotolius.github.io/FlashCardsJS/
+
 ## Features
 
 - 20 JavaScript questions (stored in `db.js`)
@@ -22,3 +25,4 @@ Small flashcard quiz built with vanilla JavaScript for practicing basic JavaScri
 - Vanilla JavaScript (ES Modules)
 
 ![screen](./screenshots/screen.png)
+
