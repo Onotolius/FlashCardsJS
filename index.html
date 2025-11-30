@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/reset.css" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <title>FlashCards</title>
+  </head>
+  <body>
+    <main>
+      <section class="layout">
+        <div class="container">
+          <div class="layout__inner">
+            <div class="layout__header">
+              <div class="header">
+                <h1 class="header__title">FlashCard - Quiz</h1>
+                <div class="header__info">
+                  <p class="header__info-current">
+                    Word: <span id="current__word">0</span>/<span
+                      class="header__info-total"
+                      >20</span
+                    >
+                  </p>
+                  <p class="header__info-current">
+                    Score: <span id="current__score">0</span>/<span
+                      class="header__info-total"
+                      >20</span
+                    >
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="card" id="card">
+              <div class="card__inner">
+                <div class="card__face card__face--front">
+                  <h1 class="card__word-question">Word</h1>
+                </div>
+                <div class="card__face card__face--back">
+                  <h1 class="card__word-answer">Pupa</h1>
+                </div>
+              </div>
+            </div>
+            <div class="actions">
+              <button class="btn btn-show">Show Answer</button>
+              <button class="btn btn-know">Know</button>
+              <button class="btn btn-unknown">Don't Know</button>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <script type="module" src="index.js" defer></script>
+  </body>
+</html>
